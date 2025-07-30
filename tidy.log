@@ -1,0 +1,37 @@
+/usr/local/bin/cmake -S/root/minnow -B/root/minnow/build --check-build-system CMakeFiles/Makefile.cmake 0
+make  -f CMakeFiles/Makefile2 tidy
+make[1]: Entering directory '/root/minnow/build'
+/usr/local/bin/cmake -S/root/minnow -B/root/minnow/build --check-build-system CMakeFiles/Makefile.cmake 0
+/usr/local/bin/cmake -E cmake_progress_start /root/minnow/build/CMakeFiles 0
+make  -f CMakeFiles/Makefile2 CMakeFiles/tidy.dir/all
+make[2]: Entering directory '/root/minnow/build'
+make  -f CMakeFiles/tidy_src__byte_stream_helpers.cc.dir/build.make CMakeFiles/tidy_src__byte_stream_helpers.cc.dir/depend
+make  -f CMakeFiles/tidy_src__byte_stream.cc.dir/build.make CMakeFiles/tidy_src__byte_stream.cc.dir/depend
+make[3]: Entering directory '/root/minnow/build'
+cd /root/minnow/build && /usr/local/bin/cmake -E cmake_depends "Unix Makefiles" /root/minnow /root/minnow /root/minnow/build /root/minnow/build /root/minnow/build/CMakeFiles/tidy_src__byte_stream_helpers.cc.dir/DependInfo.cmake "--color="
+make[3]: Entering directory '/root/minnow/build'
+cd /root/minnow/build && /usr/local/bin/cmake -E cmake_depends "Unix Makefiles" /root/minnow /root/minnow /root/minnow/build /root/minnow/build /root/minnow/build/CMakeFiles/tidy_src__byte_stream.cc.dir/DependInfo.cmake "--color="
+make[3]: Leaving directory '/root/minnow/build'
+make  -f CMakeFiles/tidy_src__byte_stream_helpers.cc.dir/build.make CMakeFiles/tidy_src__byte_stream_helpers.cc.dir/build
+make[3]: Leaving directory '/root/minnow/build'
+make  -f CMakeFiles/tidy_src__byte_stream.cc.dir/build.make CMakeFiles/tidy_src__byte_stream.cc.dir/build
+make[3]: Entering directory '/root/minnow/build'
+clang-tidy --quiet -header-filter=.* -p=/root/minnow/build /root/minnow/src/byte_stream_helpers.cc
+make[3]: Entering directory '/root/minnow/build'
+clang-tidy --quiet -header-filter=.* -p=/root/minnow/build /root/minnow/src/byte_stream.cc
+make[3]: Leaving directory '/root/minnow/build'
+Built target tidy_src__byte_stream.cc
+make[3]: Leaving directory '/root/minnow/build'
+Built target tidy_src__byte_stream_helpers.cc
+make  -f CMakeFiles/tidy.dir/build.make CMakeFiles/tidy.dir/depend
+make[3]: Entering directory '/root/minnow/build'
+cd /root/minnow/build && /usr/local/bin/cmake -E cmake_depends "Unix Makefiles" /root/minnow /root/minnow /root/minnow/build /root/minnow/build /root/minnow/build/CMakeFiles/tidy.dir/DependInfo.cmake "--color="
+make[3]: Leaving directory '/root/minnow/build'
+make  -f CMakeFiles/tidy.dir/build.make CMakeFiles/tidy.dir/build
+make[3]: Entering directory '/root/minnow/build'
+make[3]: Nothing to be done for 'CMakeFiles/tidy.dir/build'.
+make[3]: Leaving directory '/root/minnow/build'
+Built target tidy
+make[2]: Leaving directory '/root/minnow/build'
+/usr/local/bin/cmake -E cmake_progress_start /root/minnow/build/CMakeFiles 0
+make[1]: Leaving directory '/root/minnow/build'
